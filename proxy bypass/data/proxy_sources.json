@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ProxyScrape",
+        "url": "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
+        "type": "http"
+    },
+    {
+        "name": "ProxyList Download",
+        "url": "https://proxylist.geonode.com/api/proxy-list?protocols=http%2Chttps&limit=50&page=1&sort_by=lastChecked&sort_type=desc",
+        "type": "api"
+    },
+    {
+        "name": "Free Proxy List",
+        "url": "https://free-proxy-list.net/",
+        "type": "web"
+    },
+    {
+        "name": "US Proxy List",
+        "url": "https://us-proxy.org/",
+        "type": "web"
+    },
+    {
+        "name": "SSL Proxies",
+        "url": "https://sslproxies.org/",
+        "type": "web"
+    },
+    {
+        "name": "UK Proxies", 
+        "url": "https://uk-proxy.org/",
+        "type": "web"
+    },
+    {
+        "name": "Spys.One",
+        "url": "https://spys.me/proxy.txt",
+        "type": "text"
+    }
+]
